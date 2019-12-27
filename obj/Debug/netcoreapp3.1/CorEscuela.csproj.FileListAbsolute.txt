@@ -1,0 +1,11 @@
+/home/devopcc/Documents/netcore-sharp/CorEscuela/bin/Debug/netcoreapp3.1/CorEscuela
+/home/devopcc/Documents/netcore-sharp/CorEscuela/bin/Debug/netcoreapp3.1/CorEscuela.deps.json
+/home/devopcc/Documents/netcore-sharp/CorEscuela/bin/Debug/netcoreapp3.1/CorEscuela.runtimeconfig.json
+/home/devopcc/Documents/netcore-sharp/CorEscuela/bin/Debug/netcoreapp3.1/CorEscuela.runtimeconfig.dev.json
+/home/devopcc/Documents/netcore-sharp/CorEscuela/bin/Debug/netcoreapp3.1/CorEscuela.dll
+/home/devopcc/Documents/netcore-sharp/CorEscuela/bin/Debug/netcoreapp3.1/CorEscuela.pdb
+/home/devopcc/Documents/netcore-sharp/CorEscuela/obj/Debug/netcoreapp3.1/CorEscuela.csprojAssemblyReference.cache
+/home/devopcc/Documents/netcore-sharp/CorEscuela/obj/Debug/netcoreapp3.1/CorEscuela.AssemblyInfoInputs.cache
+/home/devopcc/Documents/netcore-sharp/CorEscuela/obj/Debug/netcoreapp3.1/CorEscuela.AssemblyInfo.cs
+/home/devopcc/Documents/netcore-sharp/CorEscuela/obj/Debug/netcoreapp3.1/CorEscuela.dll
+/home/devopcc/Documents/netcore-sharp/CorEscuela/obj/Debug/netcoreapp3.1/CorEscuela.pdb

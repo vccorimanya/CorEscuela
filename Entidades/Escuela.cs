@@ -3,15 +3,8 @@ using System.Collections.Generic;
 
 namespace CorEscuela.Entidades
 {  
-    public class Escuela
+    public class Escuela: ObjetoEscuelaBase
     {
-        public string UniqueId {get; set; } = Guid.NewGuid().ToString();
-        private string nombre;
-        public string Nombre
-        {
-             get{return "Copia_" + nombre;}
-             set{nombre = value.ToUpper();}
-         }
         public string Direccion {get; set;}
         public int AñoDeCreacion {get;set;}
         public string Pais { get; set; }

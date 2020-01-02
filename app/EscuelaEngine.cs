@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using CorEscuela.Entidades;
+using CorEscuela.Entidades; 
 
 namespace CorEscuela.app
 {
@@ -17,7 +17,7 @@ namespace CorEscuela.app
         {
             Escuela = new Escuela("Ciebertec", 1997, TiposEscuela.Primaria, pais: "Perú", ciudad: "Lima");
             CargarCursos();
-            CargarAsignaturas();
+            CargarAsignaturas(); 
             CargarEvaluaciones();
         }
 
@@ -33,7 +33,7 @@ namespace CorEscuela.app
 
                         for (int i = 0; i < 5; i++)
                         {
-                            var ev = new Evaluaciones()
+                            var ev = new Evaluación()
                             {
                                 Asignatura = asignatura,
                                 Nombre = $"{asignatura.Nombre} Ev#{i +1}",

@@ -5,7 +5,7 @@ using CorEscuela.Entidades;
 
 namespace CorEscuela.app
 {
-    public class EscuelaEngine
+    public sealed class EscuelaEngine
     {
         public Escuela Escuela {get; set;}
 
@@ -45,6 +45,28 @@ namespace CorEscuela.app
                     }
                 }
             }
+        }
+
+        public List<ObjetoEscuelaBase> GetObjetosEscuelaBase()
+        {
+            var listaObj = new List<ObjetoEscuelaBase>();
+            listaObj.Add(Escuela);
+            listaObj.AddRange(Escuela.Cursos);
+
+            foreach (var curso in Escuela.Cursos)
+            {   
+                listaObj.AddRange(curso.Asignaturas);
+                listaObj.AddRange(curso.Alumnos);
+
+                foreach (var alumno in curso.Alumnos)
+                {
+                    listaObj.AddRange(alumno.Evaluaciones);
+                }
+            }
+
+            listaObj.AddRange(Escuela.Cursos);
+
+            return listaObj;
         }
 
         private void CargarAsignaturas()

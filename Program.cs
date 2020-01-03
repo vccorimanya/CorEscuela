@@ -1,5 +1,6 @@
 ﻿using CorEscuela.app;
 using CorEscuela.Entidades;
+using CorEscuela.util;
 
 namespace CorEscuela
 {
@@ -11,7 +12,11 @@ namespace CorEscuela
             engine.Inicializar();
             Printer.WriteTitle("Bienbenidos a la escuela");
             ImprimirCursosEscuela(engine.Escuela);
+
+            var listaObjetos = engine.GetObjetosEscuelaBase();
         }
+
+
 
         ///summary
         ///Este método sirve para validar que la escuela exista, la escuela tenga cursos

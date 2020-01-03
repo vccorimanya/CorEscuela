@@ -1,10 +1,10 @@
 using static System.Console;
 
-namespace CorEscuela
+namespace CorEscuela.util
 {
     public static class Printer
     {
-        public static void DibujarLinea(int tam = 10)
+        public static void DrawLinea(int tam = 10)
         {
             WriteLine("".PadLeft(tam,'='));
         }
@@ -12,9 +12,9 @@ namespace CorEscuela
         public static void WriteTitle(string titulo)
         {
             var tamaño = titulo.Length + 4;
-            DibujarLinea(tamaño);
+            DrawLinea(tamaño);
             WriteLine($"| {titulo} |");
-            DibujarLinea(tamaño);
+            DrawLinea(tamaño);
 
         }
 
